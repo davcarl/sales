@@ -7,6 +7,7 @@ from smart_selects.db_fields import (
 
 
 # Create your models here.
+# Products have Supplier > categories >brands> Sub_Brand and the products tables
 
 class Supplier (models.Model):
     Supplier_Id = models.AutoField(primary_key=True)
